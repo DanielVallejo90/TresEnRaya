@@ -1,0 +1,29 @@
+button{
+    width: 400px;
+    height: 400px;
+    background-color:gray;
+}
+h1{
+    color: cyan;
+    font-family: Dancing Script;
+    font-size: 15rem;
+    text-align: center;
+    margin: auto;
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px #fff,
+    0 0 40px yellow,
+    0 0 70px yellow,
+    0 0 80px yellow,
+    0 0 100px yellow,
+    0 0 150px yellow;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 600px;
+    margin: auto;
+    margin-top:30em;
+}
